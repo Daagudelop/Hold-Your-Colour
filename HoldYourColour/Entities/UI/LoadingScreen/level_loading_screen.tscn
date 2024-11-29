@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbnieb63lo0u7"]
+
+[ext_resource type="PackedScene" uid="uid://cd0jbh4metflb" path="res://Entities/UI/LoadingScreen/loading_screen.tscn" id="1_b4fsf"]
+
+[node name="LevelLoadingScreen" instance=ExtResource("1_b4fsf")]
+_in_progress = "Loading Level..."
+_in_progress_waiting = "Still Loading Level..."
+_in_progress_still_waiting = "Still Loading Level... (%d seconds)"
+_complete = "Loading Level Complete!"
